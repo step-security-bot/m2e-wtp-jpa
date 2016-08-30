@@ -13,7 +13,7 @@
   <parent>
     <groupId>org.eclipse.m2e.wtp</groupId>
     <artifactId>org.eclipse.m2e.wtp.parent</artifactId>
-    <version>1.2.1-SNAPSHOT</version>
+    <version>1.2.2-SNAPSHOT</version>
   </parent>
 
   <groupId>org.eclipse.m2e.wtp</groupId>
@@ -39,5 +39,4 @@
       <url>${m2e-wtp.url}</url>
     </repository>
   </repositories>
- <version>1.2.1-SNAPSHOT</version>
-</project>
+ </project>
