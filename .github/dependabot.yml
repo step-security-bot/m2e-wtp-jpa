@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: maven
+    directory: /org.eclipse.m2e.wtp.jpa.feature
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.m2e.wtp.jpa.site
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /org.eclipse.m2e.wtp.jpa
+    schedule:
+      interval: daily
+
+  - package-ecosystem: maven
+    directory: /
+    schedule:
+      interval: daily
